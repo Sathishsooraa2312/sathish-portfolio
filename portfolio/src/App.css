@@ -1,0 +1,283 @@
+.anchor{
+ text-decoration: none;
+ margin-left: 25px;
+ margin-top: 15px !important ;
+}
+.school-details{
+  font-size:20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.education-details{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.school-name,.school-year,.school-venvue{
+  margin-bottom: 0;
+}
+.skillbox-details{
+  display: flex;
+  flex-flow: column;
+  align-items: center; 
+  padding: 8px;
+}
+.skill-image{
+  object-fit: cover;
+  height: 74px;
+  width: 74px;
+  align-content: center;
+}
+.skillBox-container{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap:5px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.skillbox{
+  padding: 3px;
+}
+.skill-name{
+  margin-top: 8px;
+ 
+}
+.form-heading{
+  text-align: center;
+  margin-top: 0;
+  color:crimson
+}
+.form-largr-box{
+  display: flex;
+  justify-content: center; 
+
+ 
+}
+.form-container{
+  height: auto;
+  width: 650px;
+ 
+}
+.form-main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.main-box{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.about-image{
+  object-fit:cover;
+    width:25vw;
+    height:400px
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+  margin-left:50px; 
+  margin-bottom: 0;
+}
+.about-para{
+  line-height: 2;
+  margin-top: 0;
+  margin-right: 32px;
+  font-size: 15px;
+font-weight: 700;
+font-family:  sans-serif;
+}
+.netlify-image{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  color:crimson;
+}
+.text{
+  margin-left: 25px;
+  margin-bottom: 15px;
+ 
+}
+.text-box{
+  text-decoration: none;
+  color:black;
+  font-family: monospace;
+  margin-left: 25px;
+  font-weight: 1000;
+  font-size: large;
+}
+
+.project-poster{
+  width:358px;
+  object-fit: cover;
+  height: 150px;
+}
+.project-name{
+  text-align: center;
+}
+.mark-highlight{
+  color:crimson;
+  font-weight: 600;
+  font-size: large;
+}
+
+
+.cv-button{
+  background-color:crimson;
+  color:black;
+  font-style: monospace;
+  font-weight: 900;
+  padding:8px 16px;
+  letter-spacing: normal;
+  text-decoration:none;
+  margin-top:15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.about-box{
+  display:flex;
+  flex-direction:row
+}
+.mail-box{
+  display:flex;
+  flex-direction:row;
+  gap:5;
+  flex-wrap:wrap;
+}
+.text-field{
+  width:450px;
+}
+.container{
+  padding: 5;
+}
+.education-box{
+  padding:10px;
+}
+@media(max-width:1100px){
+  .about-image{
+    width:30vw
+  }
+}
+@media(max-width:920px){
+  .about-image{
+    height:450px;
+  }
+  
+}
+@media(max-width:892px){
+  .about-box{
+    display: block;
+    flex-direction: none;
+  }
+ .image-box{
+    width:40vw;
+    margin:auto;
+ }
+ .about-image{
+  width:100%
+ }
+ .name-box{
+  margin:auto
+ }
+}
+
+@media(max-width:800px){
+  .image-box{
+   width:55vw;
+  }
+  
+}
+@media(max-width:600px){
+  .mail-box{
+   display: block;
+   text-align: center;
+   padding-bottom: 8px;
+  
+  }
+  .course-name{
+    font-size: 25px !important;
+  }
+  .about-container{
+    width:65vw;
+    margin:auto; 
+    
+  }
+  .about-para{
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media(max-width:500px){
+  .image-box{
+   width:65vw;
+  }
+  .course-name{
+    font-size: 22px !important;
+  }
+  .about-box{
+    width:80vw;
+    margin: auto;
+  }
+  .my-name{
+    font-size: 24px !important;
+  }
+  .name-box{
+   text-align: center;
+  }
+  .form-main{
+    width:70vw;
+    text-align: center;padding: 10px;
+  }
+  .text-field{
+    width: 100%;
+  }
+  .Project-box{
+    width:70vw
+  }
+  .project-poster{
+    width: 100%;
+  }
+}
+
+@media(max-width:400px){
+  .image-box{
+   width:100%
+  }
+  .about-box{
+    width:90vw;
+    margin-top: 10px;
+   
+  }
+  .main-container{
+    padding: 0 !important;
+  }
+  .name-box{
+    width:70vw;
+    
+  }
+}
+@media(max-width:340px){
+    .profile-name{
+      
+    font-weight: 600 !important;
+      letter-spacing: 0 !important;
+      font-size: x-large !important;
+    }
+    .mode-button{
+      margin:none !important;
+    }
+}
+@media(max-width:310px){
+  .profile-name{
+    
+  font-weight: 600 !important;
+    
+    font-size: large !important;
+  }
+  
+}
+
